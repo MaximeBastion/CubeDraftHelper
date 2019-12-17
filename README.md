@@ -16,5 +16,5 @@ It will then sort them according to how close their two relevant calculated valu
 
 #Repl.it
 You can try this program out here:
-Execute: https://CubeDraftHelper.maximebastion.repl.run
-See code: https://repl.it/@MaximeBastion/CubeDraftHelper
+- Execute: https://CubeDraftHelper.maximebastion.repl.run
+- See code: https://repl.it/@MaximeBastion/CubeDraftHelper
