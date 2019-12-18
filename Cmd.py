@@ -85,3 +85,5 @@ class Cmd:
                     CurrentData.display(details)
             else:
                 CurrentData.display(details)
+        if self.trigger == "setCubeSize":
+            Constants.CUBE_SIZE = int(c[1])

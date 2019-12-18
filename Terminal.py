@@ -20,7 +20,8 @@ class Terminal:
                              "and orders them", 0,
                   1)
     helpCmd = Cmd("help", "Displays the description of each command")
-    rcmds = [process, displayResultsCmd, displayConstantsCmd, displaySettingsCmd,
+    setCubeSizeCmd = Cmd("setCubeSize", "Sets the size of the cube", 1, 1)
+    rcmds = [process, displayResultsCmd, displayConstantsCmd, displaySettingsCmd, setCubeSizeCmd,
              setPlayersCmd, setPicksCmd, setWheelsCmd, setBurnCmd, helpCmd, exitCmd]
 
     @staticmethod
